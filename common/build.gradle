@@ -27,6 +27,8 @@ dependencies {
     modApi("org.valkyrienskies:valkyrienskies-118-common:${rootProject.vs2_version}")
     implementation("org.valkyrienskies.core:api:${rootProject.vs_core_version}") { transitive = false }
 
+    implementation 'org.joml:joml:1.9.2'
+
     // ICE AND FIRE
     modImplementation "curse.maven:iaf-264231:4503832"
 }
